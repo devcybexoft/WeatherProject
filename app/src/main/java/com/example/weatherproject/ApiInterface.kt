@@ -4,5 +4,5 @@ import retrofit2.http.GET
 
 interface ApiInterface {
     @GET("/Kyiv")
-    fun getWeater():Call<WeatherResponse>
+    fun getWeather():Call<WeatherResponse>
 }

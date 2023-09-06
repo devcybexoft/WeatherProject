@@ -16,7 +16,7 @@ class MainActivity: Activity() {
         val weatherTextView = findViewById<TextView>(R.id.weather_text_view)
         requestButton.setOnClickListener {
             val client = ApiClient.retrofit.create(ApiInterface::class.java)
-            client.getWeater().enqueue(
+            client.getWeather().enqueue(
                 object : Callback<WeatherResponse> {
                     override fun onResponse(
                         call: Call<WeatherResponse>,
