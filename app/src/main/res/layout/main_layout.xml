@@ -18,9 +18,7 @@
         app:cardBackgroundColor="@color/white"
         app:cardMaxElevation="12dp"
         app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true"
-        >
-
+        app:cardUseCompatPadding="true">
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
@@ -29,11 +27,12 @@
             android:layout_margin="10dp"
             android:id="@+id/img"
             android:contentDescription="" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/weather_text_view"
-            android:text=""
+            android:text="weather info will be here"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
